@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2? family= Mukta+Vaani:wght@200;500 & display=swap');
+body{
+    margin: 0;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0d041b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    .esquerda-login >h1{
+        color:rgb(36, 175, 209);
+    }
+
+.direita-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .direita-login >h1{
+        color:rgb(36, 175, 209);
+    }
+
+.painel-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1a0936;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #080113;
+}
+    .painel-login >h1{
+        color:rgb(36, 175, 209);
+        font-weight: 800;
+        margin: 0;
+    }
+
+.campo-texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+    .campo-texto >input{
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background: #4f3080;
+        color:rgb(25, 114, 136);
+        font-size: 12pt;
+        box-shadow: 0px 10px 40px #080113;
+        outline: none;
+        box-sizing: border-box;
+    }
+    .campo-texto >label{
+        color: white;
+        margin-bottom: 10px;
+    }
+    .campo-texto >input::placeholder{
+        color:white;
+    }
+.botao-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #080113;
+    background: #1bb0bb;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #0c6b72;
+}
+
+.img-animation{
+    width: 100%;
+    display: flex;
+}
