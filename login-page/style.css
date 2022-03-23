@@ -25,6 +25,11 @@ body{
         color:rgb(36, 175, 209);
     }
 
+    .img-animation{
+        width: 60%;
+        height: 60%;
+        display: flex;
+    }
 .direita-login{
     width: 50vw;
     height: 100vh;
@@ -96,7 +101,3 @@ body{
     box-shadow: 0px 10px 40px -12px #0c6b72;
 }
 
-.img-animation{
-    width: 100%;
-    display: flex;
-}
